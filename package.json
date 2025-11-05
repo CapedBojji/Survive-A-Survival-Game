@@ -25,7 +25,8 @@
 		"dev:watch": "rbxts-build watch",
 		"lint": "eslint --cache",
 		"lint:fix": "eslint --cache --fix",
-		"spellcheck": "cspell 'src/**'"
+		"spellcheck": "cspell 'src/**'",
+		"prepare": "node .husky/install.js"
 	},
 	"lint-staged": {
 		"*": "eslint --fix --max-warnings 0 --no-warn-ignored --cache --cache-strategy content"
