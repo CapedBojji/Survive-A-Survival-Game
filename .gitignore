@@ -2,3 +2,8 @@
 /out
 /include
 *.tsbuildinfo
+node_modules/
+out/
+result/
+.direnv/
+.devenv/
